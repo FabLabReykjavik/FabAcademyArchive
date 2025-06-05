@@ -1,0 +1,83 @@
+site_name: Fab Academy Archive
+site_description: An archive of Fab Academy technical examples by Neil Gershenfeld, starting from 2012.
+repo_url: https://github.com/FabLabReykjavik/FabAcademyArchive
+edit_uri: edit/main/docs/
+repo_name: "Github"
+
+theme:
+  name: material  # Specifies that you're using the Material theme for MkDocs
+  toc:  # Table of contents settings
+    depth: 5  # How many heading levels should be included in the table of contents (1 = just top level, 5 = all headers)
+
+  palette:  # Theme color settings
+    - scheme: default  # Default light theme settings
+      primary: orange  # Primary color for the site (usually the header or main elements)
+      accent: blue  # Accent color for secondary elements
+      toggle:
+        icon: material/weather-night  # Icon for switching to dark mode
+        name: Switch to dark mode  # Text for the dark mode toggle button
+    - scheme: slate  # Dark theme settings
+      primary: blue  # Primary color for dark mode
+      accent: orange  # Accent color for dark mode
+      toggle:
+        icon: material/weather-sunny  # Icon for switching to light mode
+        name: Switch to light mode  # Text for the light mode toggle button
+
+  font:  # Font settings for the site
+    text: Ubuntu  # Font used for regular text on the site
+    code: Ubuntu Mono  # Font used for code blocks and inline code
+
+
+  logo: assets/images/Fab_Lab_logo.svg  # Icon to be used as the site logo (shown in the header)
+  favicon: assets/images/Fab_Lab_logo.svg  # Path to the site's favicon (shown in browser tab)
+
+  features:  # Features enabled for the site
+    - navigation.tabs  # Enable tab-style navigation in the header (can switch between sections or pages)
+    - navigation.instant  # Instant loading for navigation links
+    - navigation.top  # Display the navigation bar at the top of the page
+    - navigation.expand  # Expandable navigation menu (good for longer pages)
+    - navigation.path  # Show the page path (breadcrumbs) in the navigation
+    - navigation.footer  # Footer navigation links (can include links to privacy, terms, etc.)
+    - toc.follow  # The table of contents (TOC) follows as you scroll through the page
+    - content.code.copy
+    
+  footer:  # Footer settings
+    next_previous: true  # Show next and previous page links in the footer (good for multi-page docs)
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: datetime
+      fallback_to_build_date: true
+      # Read more: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/#enabled
+      enabled: !ENV [ENABLED_GIT_REVISION_DATE, True]
+  - git-authors
+  - table-reader
+
+  - mkdocs-video:
+      is_video: True
+      # video_muted: True
+      video_controls: True
+
+markdown_extensions:
+  - extra  # Enable extra Markdown features like fenced code blocks, tables, etc.
+  - smarty  # Enable SmartyPants (converts quotes, dashes, etc. into "smart" punctuation)
+  - admonition  # Enable Admonitions (special blocks like notes, warnings, etc.)
+  - codehilite:  # Syntax highlighting for code blocks
+      guess_lang: false  # Disable auto language guessing for code blocks (requires explicit language to be defined)
+  - toc:  # Table of contents generation for pages
+      permalink: true  # Generate permalinks for each heading in the TOC (makes headings clickable)
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.blocks.caption:
+      prepend: false
+  # Allow continued numbering
+  - sane_lists
+
+extra_css:
+  - stylesheets/extra.css
