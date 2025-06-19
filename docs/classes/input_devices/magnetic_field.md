@@ -1,7 +1,11 @@
 # Magnetic field
 
+---
+
 [Hall effect](http://www.digikey.com/product-detail/en/A1324LLHLT-T/620-1402-1-ND/)
 [array](https://www.digikey.com/product-detail/en/ams/AS5013-IQFT/AS5013-IQFT-1000CT-ND)
+
+---
 
 ## Hello mag 45 (2013)
 
@@ -16,6 +20,8 @@ Components
 [hello.mag.45.html](mag/hello.mag.45.html) [hello.mag.45.js](mag/hello.mag.45.js) [mods](mag/hello.mag.45.mods.mp4)  
 [video](mag/hello.mag.45.mp4)
 
+---
+
 ## Hello mag t412 (2020)
 
 ![](mag/hello.mag.t412.jpg)
@@ -26,6 +32,8 @@ Components
 [hello.mag.t412](mag/hello.mag.t412) [board](mag/hello.mag.t412.png) [traces](mag/hello.mag.t412.traces.png) [interior](mag/hello.mag.t412.interior.png)  
 [hello.mag.serial.ino](mag/hello.mag.serial.ino) [hello.mag.t412.ino](mag/hello.mag.t412.ino)
 
+---
+
 ## Hello mag D11C (2020)
 
 ![](mag/hello.mag.D11C.jpg)
@@ -35,6 +43,8 @@ Components
 
 [hello.mag.D11C](mag/hello.mag.D11C) [board](mag/hello.mag.D11C.png) [traces](mag/hello.mag.D11C.traces.png) [interior](mag/hello.mag.D11C.interior.png)  
 [hello.mag.USB.ino](mag/hello.mag.USB.ino) [hello.mag.D11C.ino](mag/hello.mag.D11C.ino)
+
+---
 
 ## Hello TLE4938 t412 (2021)
 
@@ -57,4 +67,3 @@ Components
 [makefile](mag/TLE493D/hello.TLE493D.t412.make) 
 [hello.TLE493D.t412.py](mag/TLE493D/hello.TLE493D.t412.py)  
 [video](mag/TLE493D/hello.TLE493D.t412.mp4)
-
