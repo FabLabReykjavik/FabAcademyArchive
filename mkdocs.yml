@@ -11,7 +11,7 @@ theme:
 
   palette:  # Theme color settings
     - scheme: default  # Default light theme settings
-      primary: orange  # Primary color for the site (usually the header or main elements)
+      primary: green  # Primary color for the site (usually the header or main elements)
       accent: blue  # Accent color for secondary elements
       toggle:
         icon: material/weather-night  # Icon for switching to dark mode
