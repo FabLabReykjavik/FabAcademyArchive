@@ -20,4 +20,6 @@
 
 #### [I2C](https://www.nxp.com/docs/en/application-note/AN10216.pdf) (2021 -)
 
+---
+
 ## [Datasheet 2020 -](../embedded_programming/t412/40001911A.pdf)

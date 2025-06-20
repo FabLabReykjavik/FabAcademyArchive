@@ -2,7 +2,7 @@
 
 ---
 
-## Sonar
+## [Sonar](http://www.amazon.com/SunFouder-Ultrasonic-Distance-Mega2560-Duemilanove/dp/B00E0NXTJW)
 
 ### Hello HC-SR04 (2015)
 
@@ -49,3 +49,10 @@ Components reflow
 
 ---
 
+### Optical time of flight
+
+[optical time-of-flight](http://www.digikey.com/product-detail/en/stmicroelectronics/VL53L0CXV0DH-1/497-16538-1-ND) [API](http://www.st.com/resource/en/user_manual/dm00279088.pdf)
+
+### Lidar
+
+[Lidar](https://www.amazon.com/s?k=lidar)
