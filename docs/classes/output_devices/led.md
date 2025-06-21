@@ -4,6 +4,10 @@
 
 ## LED array
 
+### [Charlieplexing](array/Charlieplexing.pdf)
+
+---
+
 ### Hello array 44 (2012)
 
 ![](array/hello.array.44.jpg)  
@@ -25,10 +29,6 @@ Components
 
 [board](array/hello.array.44.2.png) [bottom](array/hello.array.44.2.bottom.png) [vias](array/hello.array.44.2.vias.png) [top](array/hello.array.44.2.top.png) [interior](array/hello.array.44.2.interior.png)  
 [hello.array.44.2.c](array/hello.array.44.2.c) [makefile](array/hello.array.44.2.make) [video](array/hello.array.44.2.mp4)
-
----
-
-### [Charlieplexing](http://www.maxim-ic.com/app-notes/index.mvp/id/1880)
 
 ---
 
