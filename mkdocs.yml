@@ -35,7 +35,7 @@ theme:
     - navigation.tabs  # Enable tab-style navigation in the header (can switch between sections or pages)
     - navigation.instant  # Instant loading for navigation links
     - navigation.top  # Display the navigation bar at the top of the page
-    - navigation.expand  # Expandable navigation menu (good for longer pages)
+    #- navigation.expand  # Expandable navigation menu (good for longer pages)
     - navigation.path  # Show the page path (breadcrumbs) in the navigation
     - navigation.footer  # Footer navigation links (can include links to privacy, terms, etc.)
     - toc.follow  # The table of contents (TOC) follows as you scroll through the page
