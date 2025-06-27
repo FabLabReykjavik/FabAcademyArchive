@@ -4,36 +4,18 @@
 
 ## Examples
 
-### Hello LCD 162a (2012 – 2024)
-![](LCD/hello.LCD.162a.jpg)  
-///caption  
-HD44780-compatible, 16×2 character LCD  
+### hello.LCD.44 (2012 – 2018)
+![](LCD/hello.LCD.44.png)
+///caption
+Components
 ///
-[C](LCD/hello.LCD.162a.c) [board](LCD/hello.LCD.162a.png) [interior](LCD/hello.LCD.162a.interior.png) [makefile](LCD/hello.LCD.162a.make) [traces](LCD/hello.LCD.162a.traces.png) [video](LCD/hello.LCD.162a.mp4)
-
----
-
-### Hello LCD 412 (2022 – )
-![](LCD/hello.LCD.412.jpg)  
-///caption  
-ATtiny412, character LCD  
-///
-[ino](LCD/hello.LCD.412.ino) [board](LCD/hello.LCD.412.png) [makefile](LCD/hello.LCD.412.make) [traces](LCD/hello.LCD.412.traces.png) [video](LCD/hello.LCD.412.mp4)
-
+[hello.LCD.44.cad](LCD/hello.LCD.44.cad) [board](LCD/hello.LCD.44.png) [components](LCD/hello.LCD.44.jpg) [traces](LCD/hello.LCD.44.traces.png) [interior](LCD/hello.LCD.44.interior.png) [C](LCD/hello.LCD.44.c) [makefile](LCD/hello.LCD.44.make) [video](LCD/hello.LCD.44.mp4)
 ---
 
 ## Talking points
 
-HD44780 protocol (2012 – 2024)  
-character LCD (2012 – 2024)  
-contrast adjustment (2015 – 2024)  
-[pulse width timing](https://www.arduino.cc/en/Tutorial/LiquidCrystalDisplay) (2016 – 2024)  
-[pinout reference](https://www.sparkfun.com/datasheets/LCD/HD44780.pdf) (2012 – 2024)  
-backlight (2017 – 2024)  
-I2C adapter (2020 – 2024)  
-[ATtiny412 datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny412-data-sheet-DS40002216A.pdf) (2022 – )
-
----
-
-*Judgement: Any standalone line, keyword, or link not clearly part of an example is included as a talking point, with year range and link if present. If there are sub-variants that are clearly just alternate names/boards, they are grouped as above.*
-
+[44780](44780.pdf) (2012 – 2018)  
+[serial](http://www.digikey.com/product-detail/en/NHD-0216K3Z-FL-GBW-V3/NHD-0216K3Z-FL-GBW-V3-ND) (2015 – 2017)  
+[color](https://www.adafruit.com/category/63) (2017)  
+[OLED](https://www.amazon.com/s/keywords=oled+module) (2018)  
+[E Ink](https://www.eink.com) (2018)  
