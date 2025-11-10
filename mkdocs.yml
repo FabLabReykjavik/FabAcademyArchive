@@ -1,6 +1,7 @@
 site_name: MkDocs Template
 site_description: MkDocs Template
-repo_url: https://github.com/FabLabReykjavik/MkDocsGitHubPagesTemplate
+site_url: https://fablabreykjavik.github.io/FabAcademyArchive/
+repo_url: https://github.com/FabLabReykjavik/FabAcademyArchive
 edit_uri: edit/main/docs/
 repo_name: "Github"
 
