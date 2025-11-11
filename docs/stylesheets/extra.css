@@ -1,0 +1,9 @@
+/* Hide left navigation sidebar everywhere */
+.md-sidebar--primary {
+  display: none !important;
+}
+
+/* Hide right table-of-contents sidebar everywhere */
+.md-sidebar--secondary {
+  display: none !important;
+}

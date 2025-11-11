@@ -1,5 +1,5 @@
-site_name: MkDocs Template
-site_description: MkDocs Template
+site_name: Fab Academy Archive
+site_description: An Archive from the Fab Academy course since 2012
 site_url: https://fablabreykjavik.github.io/FabAcademyArchive/
 repo_url: https://github.com/FabLabReykjavik/FabAcademyArchive
 edit_uri: edit/main/docs/
@@ -42,6 +42,10 @@ theme:
     - navigation.footer  # Footer navigation links (can include links to privacy, terms, etc.)
     - toc.follow  # The table of contents (TOC) follows as you scroll through the page
     - content.code.copy
+
+  hide:
+    - navigation
+    - toc
     
   footer:  # Footer settings
     next_previous: true  # Show next and previous page links in the footer (good for multi-page docs)
@@ -86,4 +90,3 @@ extra_css:
 
 extra_javascript:
   - js/gh-video.js
-
