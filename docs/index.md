@@ -30,4 +30,4 @@ An archive of the Fab Academy class by Neil Gershenfeld, starting from 2012.
     Accelerometer Video
   </a>
 
-  <script src="/js/gh-video.js"></script>
+<script src="/FabAcademyArchive/js/gh-video.js"></script>
