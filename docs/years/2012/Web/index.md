@@ -32,17 +32,6 @@
 
 </div>
 
-  <h1>Click to play</h1>
-
-  <p>
-    <a href="https://raw.githubusercontent.com/FabLabReykjavik/FabAcademyArchiveAssets/main/classes-master/input_devices/accel/hello.ADXL343.mp4">
-      ▶️ Play Accelerometer Video
-    </a>
-  </p>
-
-
-<!-- inserted by add_video_script_tag.py -->
-<script src="/FabAcademyArchive/js/gh-video.js"></script>
 </body>
 </html>
 
