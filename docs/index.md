@@ -7,8 +7,8 @@ showing how the content has evolved through the years.
 
 ---
 
-- [Browse by Year](years/index.md)
-- [Browse by Class](classes/index.md)
+- [Browse by Year](years/years.md)
+- [Browse by Class](classes/classes.md)
 
 ---
 
