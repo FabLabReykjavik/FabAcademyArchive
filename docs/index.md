@@ -1,19 +1,21 @@
-# Home
+# Fab Academy Archive
 
-## Welcome to the Fab Academy class Archive
+## An archive of the Fab Academy program
 
-An archive of the Fab Academy class by Neil Gershenfeld, starting from 2012.
+This site preserves the final state of the Fab Academy’s class materials and assignments from 2012 onward,  
+showing how the content has evolved through the years.
 
-- [2012](years/2012/Web/index.html)
-- [2013](years/2013/Web/index.html)
-- [2014](years/2014/Web/index.html)
-- [2015](years/2015/Web/classes/index.html)
-- [2016](years/2016/Web/classes/index.html)
-- [2017](years/2017/index.html)
-- [2018](years/2018/index.html)
-- [2019](years/2019/index.html)
-- [2020](years/2020/index.html)
-- [2021](years/2021/index.html)
-- [2022](years/2022/index.html)
-- [2023](years/2023/index.html)
-- [2024](years/2024/index.html)
+---
+
+- [Browse by Year](years/index.md)
+- [Browse by Class](classes/index.md)
+
+---
+
+### About
+
+The [Fab Academy](https://fabacademy.org/) was founded and is directed by [Neil Gershenfeld](https://ng.cba.mit.edu/)  
+at the [MIT Center for Bits and Atoms (CBA)](https://cba.mit.edu/).
+
+If you want to **join the program or view the current year’s site**, visit  
+👉 [fabacademy.org](https://fabacademy.org/) or go directly to the latest site: [fabacademy.org/2025](https://fabacademy.org/2025)

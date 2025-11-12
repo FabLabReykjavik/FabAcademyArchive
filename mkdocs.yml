@@ -1,5 +1,8 @@
 site_name: Fab Academy Archive
-site_description: An Archive from the Fab Academy course since 2012
+site_description: >
+  An archive of the Fab Academy’s class materials from 2012 onward — 
+  preserving how the program, founded by Neil Gershenfeld at MIT’s Center for Bits and Atoms, has evolved through the years.
+
 site_url: https://fablabreykjavik.github.io/FabAcademyArchive/
 repo_url: https://github.com/FabLabReykjavik/FabAcademyArchive
 edit_uri: edit/main/docs/
@@ -13,21 +16,12 @@ theme:
 
   palette:  # Theme color settings
     - scheme: default  # Default light theme settings
-      primary: orange  # Primary color for the site (usually the header or main elements)
-      accent: blue  # Accent color for secondary elements
-      toggle:
-        icon: material/weather-night  # Icon for switching to dark mode
-        name: Switch to dark mode  # Text for the dark mode toggle button
-    - scheme: slate  # Dark theme settings
-      primary: blue  # Primary color for dark mode
-      accent: orange  # Accent color for dark mode
-      toggle:
-        icon: material/weather-sunny  # Icon for switching to light mode
-        name: Switch to light mode  # Text for the light mode toggle button
+      primary: white
+      accent: grey
 
   font:  # Font settings for the site
-    text: Ubuntu  # Font used for regular text on the site
-    code: Ubuntu Mono  # Font used for code blocks and inline code
+    text: Arial  # Font used for regular text on the site
+    code: Courier New  # Font used for code blocks and inline code
 
 
   logo: assets/images/Fab_Lab_logo.svg  # Icon to be used as the site logo (shown in the header)
