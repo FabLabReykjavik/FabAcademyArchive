@@ -51,7 +51,12 @@ plugins:
       fallback_to_build_date: true
       # Read more: https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/options/#enabled
       enabled: !ENV [ENABLED_GIT_REVISION_DATE, True]
-  - git-authors
+  - git-authors:
+        options:
+          show_email_address: false # Optionally hide the email address if you prefer
+          href: "https://github.com/andrisaemundsson" # Assuming 'name' can be mapped to GitHub username
+
+
   - table-reader
 
   - mkdocs-video:

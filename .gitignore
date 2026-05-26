@@ -1,3 +1,7 @@
 site/
 .venv/
 __pycache__/
+
+# Ignore yearly extraction reports
+docs/hello_world/years/*/report-*.json
+docs/hello_world/years/*/report-*.md
